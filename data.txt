@@ -1,0 +1,13 @@
+username:demouser4
+email: demo4@example.com
+password:password4
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODFmMDUwY2QxOWVmY2IzOGRhMjY4MDkiLCJpYXQiOjE3NDY4NjM1ODMsImV4cCI6MTc0Njg2NzE4M30.hVQ8-nrivbPymv1AfJdG8fGaiAewXVrX9TnOIHqMjL0
+
+
+google console stuff:
+
+project id: routinequest
+Client ID
+651764369003-rb9h5176gbbu77ak7ac08aj20qkn552c.apps.googleusercontent.com
+Client secret
+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

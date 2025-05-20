@@ -1,0 +1,379 @@
+/* Global Styles */
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0efef;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Container Styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.accordion-body {
+  font-size: 1rem;
+  color: #555;
+  max-height: 300px; /* Adjust this value as needed */
+  overflow-y: auto;  /* Allows scrolling within the body */
+  border-radius: 8px; /* Rounded corners for the body */
+  padding: 15px; /* Adjust padding */
+  max-width: 80%; /* Set a max-width for the body */
+  margin: 10px auto; /* Center the body */
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* Form Elements */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Error Messages */
+.error {
+  color: red;
+}
+
+/* Spacing Utility */
+.mt-4 {
+  margin-top: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Custom Card */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Logo */
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Home page custom box */
+.brand {
+  font-size: 4.5rem; 
+  font-weight: bold;
+  color: #430633; 
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container {
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-box-custom {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.home-subheading {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Dashboard page*/
+.dashboard-container {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.dashboard-info, .dashboard-filter, .dashboard-habits-list, .dashboard-create-habit {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-info h1, .dashboard-info p {
+  margin: 0;
+  color: #333;
+}
+
+.dashboard-filter button, .dashboard-create-habit button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-filter button:hover, .dashboard-create-habit button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.clear-filters-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear-filters-button:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+
+/* Profile Page */
+.profile-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.profile-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card p {
+  color: #666;
+  margin: 0.3rem 0;
+}
+
+.error-text {
+  color: red;
+}
+
+/* About Page */
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease; /* Only background-color changes on hover */
+  padding: 10px 20px; /* Adjust padding for a more compact look */
+  border-radius: 8px; /* Rounded corners */
+  width: 100%; /* Ensure full width */
+  max-width: 80%; /* Max width for accordion */
+  margin: 10px auto; /* Center the accordion button */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+.accordion-button:hover {
+  background-color: #e0e0e0; /* Change background color slightly on hover */
+  transform: none; /* Ensure no scaling on hover */
+  box-shadow: none; /* No shadow effect */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .home-container h1 {
+    font-size: 2rem;
+  }
+  
+  .home-container p {
+    font-size: 1rem;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+
+  .accordion-body {
+    width: 100%; /* Full width on smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+}
+
+/*Login page*/
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form-group {
+  margin-bottom: 1rem;
+}
+
+.login-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+  transform: scale(1.02);
+}
+
+.login-error {
+  color: red;
+  margin-bottom: 1rem;
+  text-align: center;
+}
