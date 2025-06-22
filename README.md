@@ -64,7 +64,7 @@ JWT_SECRET=your_secret_key
 
 Pull requests are welcome. For major changes, please open an issue first to discuss.
 
-## 📬 Contact
+## Contact
 
 **Shanthi V** – [GitHub](https://github.com/vshanthi5831)
 
