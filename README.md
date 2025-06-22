@@ -54,18 +54,15 @@ JWT_SECRET=your_secret_key
 * JWT token stored in HTTP-only cookie or local storage
 * Middleware protects routes for authenticated users only
 
----
 
 ## To Do
 
 - Improve UI responsiveness
 - Mobile support
 
-
+---
 
 Pull requests are welcome. For major changes, please open an issue first to discuss.
-
----
 
 ## 📬 Contact
 
