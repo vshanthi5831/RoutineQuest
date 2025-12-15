@@ -31,9 +31,9 @@ const Profile = () => {
 
   return (
     <div>
-      <h1 className="brand">RoutineQuest</h1>
+      <h3><center>How's You</center></h3>
       <div className="profile-container">
-        <h2 className="profile-heading">😊 Profile</h2>
+        <h2 className="profile-heading"><center>Profile😊</center></h2>
 
         <div className="profile-card">
           {loading ? (

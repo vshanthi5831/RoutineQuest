@@ -44,6 +44,7 @@ const FilterHabits = ({ habits, onFilter }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+        <h3>Filter Habits</h3>
         <label>Status:</label>
         <select value={status} onChange={(e) => setStatus(e.target.value)}>
           <option value="">All</option>

@@ -50,11 +50,11 @@ const Navbar = () => {
                 <Link className="nav-link" to="/analytics">You</Link>
               </li>
             )}
-            {token && (
+            {/* {token && (
               <li className="nav-item">
                 <Link className="nav-link" to="/profile">😊</Link>
               </li>
-            )}
+            )} */}
           </ul>
 
           <div className="d-flex">

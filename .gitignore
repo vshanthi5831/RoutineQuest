@@ -1,3 +1,11 @@
 node_modules/
 client/node_modules/
 server/node_modules/
+streak11.png
+streak12.png
+streak13.png
+not_this.png
+not_this_1.png
+client/.env
+server/.env
+data.txt

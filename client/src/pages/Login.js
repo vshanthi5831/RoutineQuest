@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Login = ({ setToken }) => {
   const [email, setEmail] = useState('');
@@ -67,6 +67,14 @@ const Login = ({ setToken }) => {
 
           <button type="submit" className="login-button">Login</button>
         </form>
+
+        {/* New User Link */}
+        <p style={{ marginTop: '16px', textAlign: 'center' }}>
+          New user?{' '}
+          <Link to="/register" className="btn btn-outline-primary">
+            Register
+          </Link>
+        </p>
       </div>
     </div>
   );

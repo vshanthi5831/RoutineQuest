@@ -101,7 +101,8 @@ const Dashboard = () => {
           {/* User Info Block */}
           <div>
           {/* <div className="dashboard-info"> */}
-            <h1 className= "brand" >RoutineQuest, {user.username}!</h1>
+            {/*<h1 className= "brand" > */}
+            <h1 style = {{color: "#430633"}}>You did it, {user.username}!</h1>
             {/* <h1>Hello, </h1> */}
             <h3><center>Points: {user.points}</center></h3>
           </div>
@@ -145,3 +146,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+

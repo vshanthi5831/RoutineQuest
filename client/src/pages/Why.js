@@ -1,32 +1,110 @@
-// Why.js
+// // Why.js
+// import React from 'react';
+
+// const Why = () => {
+//   return (
+//     <div style={{ padding: "20px 40px" }}>
+      
+//       {/* Top Banner */}
+//       <div
+//         style={{
+//           display: "block",
+//           width: "100%",              
+//           maxWidth: "100%",           
+//           background: "rgba(255, 255, 255, 0.5)",
+//           padding: "12px 20px",
+//           borderRadius: "10px",
+//           marginBottom: "20px"
+//         }}
+//       >
+//         <h1 className="brand" style={{ margin: 0 }}>RoutineQuest</h1>
+        
+//       </div>
+      
+//       <br />
+//       <br />
+//       {/* Why Page Content */}
+//       <div className="container mx-auto p-4">
+//         <h1 className="text-4xl font-bold mb-6">Why Use RoutineQuest?</h1>
+//         <p className="text-lg mb-4">
+//           <strong>RoutineQuest</strong> is more than just a habit tracker—it's a tool designed to help you take control of your goals, stay motivated, and build lasting habits. Whether you're looking to form healthy routines or break bad habits, RoutineQuest makes the process engaging and fun through gamification and rewards.
+//         </p>
+
+//         <h2 className="text-3xl font-semibold mb-4">Key Features:</h2>
+//         <ul className="list-disc pl-6 mb-4">
+//           <li><strong>Gamified Experience:</strong> Earn points as you complete habits and level up!</li>
+//           <li><strong>Personalized Dashboard:</strong> Easily track and manage your habits with a clear overview.</li>
+//           <li><strong>Habit Streaks:</strong> Stay motivated with streak tracking and push yourself to maintain consistency.</li>
+//           <li><strong>Flexible Scheduling:</strong> Set habits for daily, weekly, or monthly tracking—whatever fits your routine.</li>
+//           <li><strong>Data Insights:</strong> Get a detailed view of your progress and performance over time.</li>
+//         </ul>
+
+//         <h2 className="text-3xl font-semibold mb-4">How RoutineQuest Helps:</h2>
+//         <p className="text-lg mb-4">
+//           Building habits is hard, and sticking with them is even harder. With <strong>RoutineQuest</strong>, you have a system that rewards your progress and keeps you accountable. The gamification approach turns your habits into a fun and rewarding challenge, helping you stay on track while achieving real results.
+//         </p>
+
+//         <h2 className="text-3xl font-semibold mb-4">Start Your Journey Now!</h2>
+//         <p className="text-lg mb-4">
+//           Join thousands of users who are taking control of their lives, building better habits, and achieving their goals. Ready to start? Create an account and start your first habit today with <strong>RoutineQuest</strong>.
+//         </p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Why;
+
+
+
 import React from 'react';
 
 const Why = () => {
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-6">Why Use RoutineQuest?</h1>
-      <p className="text-lg mb-4">
-        <strong>RoutineQuest</strong> is more than just a habit tracker—it's a tool designed to help you take control of your goals, stay motivated, and build lasting habits. Whether you're looking to form healthy routines or break bad habits, RoutineQuest makes the process engaging and fun through gamification and rewards.
-      </p>
+    <div style={{ padding: "20px 40px" }}>
 
-      <h2 className="text-3xl font-semibold mb-4">Key Features:</h2>
-      <ul className="list-disc pl-6 mb-4">
-        <li><strong>Gamified Experience:</strong> Earn points as you complete habits and level up!</li>
-        <li><strong>Personalized Dashboard:</strong> Easily track and manage your habits with a clear overview.</li>
-        <li><strong>Habit Streaks:</strong> Stay motivated with streak tracking and push yourself to maintain consistency.</li>
-        <li><strong>Flexible Scheduling:</strong> Set habits for daily, weekly, or monthly tracking—whatever fits your routine.</li>
-        <li><strong>Data Insights:</strong> Get a detailed view of your progress and performance over time.</li>
-      </ul>
+      {/* Hero / Title Section */}
+      <div style={{
+        textAlign: "center",
+        background: "rgba(255,255,255,0.6)",
+        padding: "30px 20px",
+        borderRadius: "12px",
+        marginBottom: "30px",
+        position: "relative",
+        overflow: "hidden"
+      }}>
+        <h1 className="brand" style={{ margin: 0, fontSize: "3rem" }}>RoutineQuest</h1>
+        <h3 style={{ marginTop: "8px", fontSize: "1.5rem" }}>
+          Slay Procrastination like a Boss!!
+        </h3>
+      </div>
 
-      <h2 className="text-3xl font-semibold mb-4">How RoutineQuest Helps:</h2>
-      <p className="text-lg mb-4">
-        Building habits is hard, and sticking with them is even harder. With **RoutineQuest**, you have a system that rewards your progress and keeps you accountable. The gamification approach turns your habits into a fun and rewarding challenge, helping you stay on track while achieving real results.
-      </p>
+      {/* Why Page Content */}
+      <div className="container mx-auto p-4">
+        <h1 className="text-4xl font-bold mb-6">Why Use RoutineQuest?</h1>
+        <p className="text-lg mb-4">
+          <strong>RoutineQuest</strong> is more than just a habit tracker—it's a tool designed to help you take control of your goals, stay motivated, and build lasting habits. Whether you're looking to form healthy routines or break bad habits, RoutineQuest makes the process engaging and fun through gamification and rewards.
+        </p>
 
-      <h2 className="text-3xl font-semibold mb-4">Start Your Journey Now!</h2>
-      <p className="text-lg mb-4">
-        Join thousands of users who are taking control of their lives, building better habits, and achieving their goals. Ready to start? Create an account and start your first habit today with **RoutineQuest**.
-      </p>
+        <h2 className="text-3xl font-semibold mb-4">Key Features:</h2>
+        <ul className="list-disc pl-6 mb-4">
+          <li><strong>Gamified Experience:</strong> Earn points as you complete habits and level up!</li>
+          <li><strong>Personalized Dashboard:</strong> Easily track and manage your habits with a clear overview.</li>
+          <li><strong>Habit Streaks:</strong> Stay motivated with streak tracking and push yourself to maintain consistency.</li>
+          <li><strong>Flexible Scheduling:</strong> Set habits for daily, weekly, or monthly tracking—whatever fits your routine.</li>
+          <li><strong>Data Insights:</strong> Get a detailed view of your progress and performance over time.</li>
+        </ul>
+
+        <h2 className="text-3xl font-semibold mb-4">How RoutineQuest Helps:</h2>
+        <p className="text-lg mb-4">
+          Building habits is hard, and sticking with them is even harder. With <strong>RoutineQuest</strong>, you have a system that rewards your progress and keeps you accountable. The gamification approach turns your habits into a fun and rewarding challenge, helping you stay on track while achieving real results.
+        </p>
+
+        <h2 className="text-3xl font-semibold mb-4">Start Your Journey Now!</h2>
+        <p className="text-lg mb-4">
+          Join thousands of users who are taking control of their lives, building better habits, and achieving their goals. Ready to start? Create an account and start your first habit today with <strong>RoutineQuest</strong>.
+        </p>
+      </div>
     </div>
   );
 };
