@@ -42,7 +42,10 @@ app.use('/api/habits', habitRoutes);
 app.use('/api/emails', emailRoutes);
 app.use('/api/board', leaderboardRoutes);
 
-app.use(authRoutes);  // Ensure authRoutes is after dotenv.config()
+// app.use(authRoutes);  // Ensure authRoutes is after dotenv.config()
+
+app.use('/api/auth', authRoutes);
+
 
 // Server setup
 const PORT = process.env.PORT || 5000;
